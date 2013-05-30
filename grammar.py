@@ -36,3 +36,5 @@ for next in f:
 	start = tab*current_indent
 	line = start + next + new_line
 	new.write(line)
+f.close()
+new.close()
